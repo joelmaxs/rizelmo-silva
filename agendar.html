@@ -3,16 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agendar atendimento — Rizelmo Silva Advocacia</title>
-<meta name="description" content="Agende seu atendimento com o Dr. Rizelmo dos Santos Silva: presencial em São Paulo – SP ou on-line para todo o Brasil.">
-<script src="./vendor/react.js"></script>
-<script src="./vendor/react-dom.js"></script>
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
+<title>Agendar atendimento | Rizelmo Silva Advocacia</title>
+<meta name="description" content="Agende seu atendimento com o Dr. Rizelmo dos Santos Silva (OAB/SP 327.143): presencial em São Paulo – SP ou on-line para todo o Brasil. Envie seus dados pelo WhatsApp.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rizelmoadvocacia.com.br/agendar">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Rizelmo Silva Advocacia">
+<meta property="og:title" content="Agendar atendimento | Rizelmo Silva Advocacia">
+<meta property="og:description" content="Agende seu atendimento com o Dr. Rizelmo dos Santos Silva (OAB/SP 327.143): presencial em São Paulo – SP ou on-line para todo o Brasil. Envie seus dados pelo WhatsApp.">
+<meta property="og:url" content="https://rizelmoadvocacia.com.br/agendar">
+<meta property="og:image" content="https://rizelmoadvocacia.com.br/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rizelmo Silva Advocacia — Dr. Rizelmo dos Santos Silva">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#092161">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <style>
 :root{--navy:#092161;--navy-d:#06173F;--royal:#1E3FA8;--sky:#B9C6E4;--ice:#F1F4FA;--line:#D3DBEB;--ink:#14213D;--mute:#4A5573;--serif:'Playfair Display',Georgia,serif;--sans:'Source Sans 3',system-ui,sans-serif;--ease:cubic-bezier(.2,.7,.2,1);--gx:20px}
@@ -82,12 +94,26 @@ html::-webkit-scrollbar-thumb{background:linear-gradient(#1E3FA8,#092161);border
 .side ::selection{background:#B9C6E4;color:#06173F}
 @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:no-preference){.side{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}.form{animation:rise .8s .12s cubic-bezier(.2,.7,.2,1) both}.steps li{transition:transform .3s}.steps li:hover{transform:translateX(4px)}.btn:active{transform:scale(.98)}}
+
+[hidden]{display:none!important}
+.foot .foot-links a{font-weight:600}
+.copy-toast{position:fixed;left:50%;bottom:24px;z-index:90;transform:translate(-50%,16px);padding:12px 20px;border-radius:999px;background:#06173F;color:#FFFFFF;font:600 15px 'Source Sans 3',system-ui,sans-serif;box-shadow:0 14px 30px -12px rgba(6,23,63,.6);opacity:0;pointer-events:none;transition:opacity .3s,transform .3s cubic-bezier(.2,.7,.2,1)}
+.copy-toast.on{opacity:1;transform:translate(-50%,0)}
+.ck{position:fixed;left:16px;right:16px;bottom:16px;z-index:80;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;max-width:640px;margin:0 auto;padding:14px 18px;border-radius:16px;background:#FFFFFF;color:#14213D;border:1px solid #D3DBEB;box-shadow:0 20px 44px -20px rgba(9,33,97,.45);font:400 14.5px/1.5 'Source Sans 3',system-ui,sans-serif}
+.ck p{flex:1 1 260px;margin:0}
+.ck a{color:#1E3FA8;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.ck button{min-height:40px;padding:0 20px;border:0;border-radius:999px;background:#092161;color:#FFFFFF;font:700 14.5px 'Source Sans 3',system-ui,sans-serif;cursor:pointer}
+.ck button:hover{background:#1E3FA8}
+.foot-links{display:inline-flex;flex-wrap:wrap;gap:4px 14px}
+[hidden]{display:none!important}
 </style>
-</helmet>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"Agendar atendimento","url":"https://rizelmoadvocacia.com.br/agendar","inLanguage":"pt-BR","about":{"@id":"https://rizelmoadvocacia.com.br/#escritorio"}}</script>
+</head>
+<body>
 <div class="rf">
 <header class="hdr"><div class="wrap">
-<a class="brand" href="index.html" aria-label="Rizelmo Silva Advocacia — voltar ao site"><img src="img/logo.svg" alt="Rizelmo Silva Advocacia" width="196" height="52"></a>
-<a class="back" href="index.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg>Voltar ao site</a>
+<a class="brand" href="/" aria-label="Rizelmo Silva Advocacia — voltar ao site"><img src="/img/logo.svg" alt="Rizelmo Silva Advocacia" width="196" height="52"></a>
+<a class="back" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg>Voltar ao site</a>
 </div></header>
 
 <main class="main"><div class="wrap grid">
@@ -96,79 +122,84 @@ html::-webkit-scrollbar-thumb{background:linear-gradient(#1E3FA8,#092161);border
 <h1>Agende seu <em>atendimento</em></h1>
 <p>Preencha os dados ao lado. Ao enviar, o WhatsApp abre com a sua mensagem pronta para o escritório.</p>
 <ol class="steps"><li>Informe seus dados e a área do seu caso.</li><li>Escolha atendimento presencial ou on-line.</li><li>Envie pelo WhatsApp e aguarde o retorno.</li></ol>
-<div class="side-card"><img src="img/rizelmo.jpg" alt="" width="60" height="60"><span><b>Dr. Rizelmo dos Santos Silva</b><small>Advogado Especialista · OAB/SP 327.143</small></span></div>
+<div class="side-card"><img src="/img/rizelmo.jpg" alt="" width="60" height="60"><span><b>Dr. Rizelmo dos Santos Silva</b><small>Advogado Especialista · OAB/SP 327.143</small></span></div>
 </aside>
 
 <div class="form">
-<sc-if value="{{editing}}" hint-placeholder-val="{{ true }}">
+<div data-edit>
 <h2>Seus dados</h2>
 <p class="fsub">Campos com * são obrigatórios.</p>
 <div class="fgrid">
-<div class="field"><label for="rf-nome">Nome completo *</label><input id="rf-nome" type="text" autocomplete="name" onInput="{{set.nome}}" onChange="{{set.nome}}"><sc-if value="{{e.nome}}" hint-placeholder-val="{{ false }}"><p class="err">Informe seu nome.</p></sc-if></div>
-<div class="field"><label for="rf-tel">Telefone / WhatsApp *</label><input id="rf-tel" type="tel" autocomplete="tel" inputmode="tel" onInput="{{set.tel}}" onChange="{{set.tel}}"><sc-if value="{{e.tel}}" hint-placeholder-val="{{ false }}"><p class="err">Informe um telefone.</p></sc-if></div>
-<div class="field"><label for="rf-cid">Cidade / Estado</label><input id="rf-cid" type="text" autocomplete="address-level2" onInput="{{set.cidade}}" onChange="{{set.cidade}}"></div>
-<div class="field"><label for="rf-area">Área do caso *</label><select id="rf-area" onChange="{{set.area}}"><sc-for list="{{areas}}" as="a" hint-placeholder-count="4"><option value="{{a.v}}">{{a.v}}</option></sc-for></select></div>
-<fieldset class="field full"><legend>Tipo de atendimento *</legend><div class="opts"><button type="button" class="opt" aria-pressed="{{pres}}" onClick="{{setPres}}">Presencial — São Paulo</button><button type="button" class="opt" aria-pressed="{{onl}}" onClick="{{setOnl}}">On-line</button></div></fieldset>
-<div class="field full"><label for="rf-msg">Conte brevemente o seu caso *</label><textarea id="rf-msg" onInput="{{set.msg}}" onChange="{{set.msg}}"></textarea><sc-if value="{{e.msg}}" hint-placeholder-val="{{ false }}"><p class="err">Escreva uma breve mensagem sobre o seu caso.</p></sc-if></div>
+<div class="field"><label for="rf-nome">Nome completo *</label><input id="rf-nome" type="text" autocomplete="name"><div data-err="nome" hidden><p class="err">Informe seu nome.</p></div></div>
+<div class="field"><label for="rf-tel">Telefone / WhatsApp *</label><input id="rf-tel" type="tel" autocomplete="tel" inputmode="tel"><div data-err="tel" hidden><p class="err">Informe um telefone.</p></div></div>
+<div class="field"><label for="rf-cid">Cidade / Estado</label><input id="rf-cid" type="text" autocomplete="address-level2"></div>
+<div class="field"><label for="rf-area">Área do caso *</label><select id="rf-area"><option value="Direito Previdenciário">Direito Previdenciário</option><option value="Direito Trabalhista">Direito Trabalhista</option><option value="Direito Tributário">Direito Tributário</option><option value="Outro assunto">Outro assunto</option></select></div>
+<fieldset class="field full"><legend>Tipo de atendimento *</legend><div class="opts"><button type="button" class="opt" aria-pressed="true" data-tipo="Presencial">Presencial — São Paulo</button><button type="button" class="opt" aria-pressed="false" data-tipo="On-line">On-line</button></div></fieldset>
+<div class="field full"><label for="rf-msg">Conte brevemente o seu caso *</label><textarea id="rf-msg"></textarea><div data-err="msg" hidden><p class="err">Escreva uma breve mensagem sobre o seu caso.</p></div></div>
 </div>
-<button class="btn" type="button" onClick="{{send}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg>Enviar pelo WhatsApp</button>
-<small class="note">Seus dados são usados apenas para o contato sobre o seu atendimento.</small>
-</sc-if>
-<sc-if value="{{sent}}" hint-placeholder-val="{{ false }}">
+<button class="btn" type="button" data-send><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg>Enviar pelo WhatsApp</button>
+<small class="note">Seus dados são usados apenas para o contato sobre o seu atendimento. Veja a <a href="/politica-de-privacidade" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Política de Privacidade</a>.</small>
+</div>
+<div data-sent hidden>
 <div class="ok" role="status" aria-live="polite">
 <span class="ok-ico" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span>
 <h3>Mensagem pronta para envio!</h3>
-<sc-if value="{{popped}}" hint-placeholder-val="{{ true }}"><p>Abrimos o WhatsApp do escritório com os seus dados. É só tocar em <b>enviar</b> na conversa para concluir.</p></sc-if>
-<sc-if value="{{blocked}}" hint-placeholder-val="{{ false }}"><p>Toque no botão abaixo para abrir o WhatsApp do escritório com os seus dados e concluir o envio.</p></sc-if>
-<a class="btn" href="{{waUrl}}" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg>{{okLabel}}</a>
-<button class="ok-new" type="button" onClick="{{reset}}">Preencher um novo formulário</button>
+<div data-popped><p>Abrimos o WhatsApp do escritório com os seus dados. É só tocar em <b>enviar</b> na conversa para concluir.</p></div>
+<div data-blocked hidden><p>Toque no botão abaixo para abrir o WhatsApp do escritório com os seus dados e concluir o envio.</p></div>
+<a class="btn" href="#" data-wa target="_blank" rel="noopener noreferrer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 01-13.5 7.8L3 21l1.3-4.4A9 9 0 1121 12z"></path></svg><span data-ok-label>Abrir WhatsApp</span></a>
+<button class="ok-new" type="button" data-reset>Preencher um novo formulário</button>
 </div>
-</sc-if>
+</div>
 </div>
 </div></main>
 
-<footer class="foot"><div class="wrap"><span>© 2026 Dr. Rizelmo dos Santos Silva · OAB/SP 327.143</span><span>Desenvolvido por <a href="https://wa.me/558399173803" target="_blank" rel="noopener noreferrer">Joelma</a></span></div></footer>
+<footer class="foot"><div class="wrap"><span>© 2026 Dr. Rizelmo dos Santos Silva · OAB/SP 327.143<span class="foot-links" style="display:flex;margin-top:6px"><a href="/politica-de-privacidade">Política de Privacidade</a><a href="/termos-de-uso">Termos de Uso</a><a href="/politica-de-cookies">Cookies</a></span></span><span>Desenvolvido por <a href="https://wa.me/558399173803" target="_blank" rel="noopener noreferrer">Joelma</a></span></div></footer>
 </div>
-</x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1360,"height":1100}}'>
-class Component extends DCLogic {
-constructor(props) {
-super(props);
-this.state = { f: { nome: '', tel: '', cidade: '', area: 'Direito Previdenciário', msg: '' }, tipo: 'Presencial', err: {} };
-this.phone = '5511975688237';
-this.AREAS = ['Direito Previdenciário', 'Direito Trabalhista', 'Direito Tributário', 'Outro assunto'];
-const mk = (k) => (e) => { const v = e && e.target ? e.target.value : ''; this.f[k] = v; };
-this.f = Object.assign({}, this.state.f);
-this.set = { nome: mk('nome'), tel: mk('tel'), cidade: mk('cidade'), area: mk('area'), msg: mk('msg') };
-this.setPres = () => this.setState({ tipo: 'Presencial' });
-this.setOnl = () => this.setState({ tipo: 'On-line' });
-this.blank = () => ({ nome: '', tel: '', cidade: '', area: this.AREAS[0], msg: '' });
-this.send = (ev) => {
-const root = (ev && ev.currentTarget && ev.currentTarget.closest && ev.currentTarget.closest('.form')) || document;
-const g = (id) => { const el = root.querySelector('#' + id) || document.getElementById(id); return el ? el.value : null; };
-const f = this.f; [['nome','rf-nome'],['tel','rf-tel'],['cidade','rf-cid'],['area','rf-area'],['msg','rf-msg']].forEach(([k, id]) => { const v = g(id); if (v !== null) f[k] = v; });
-const err = { nome: !(f.nome || '').trim(), tel: (f.tel || '').replace(/\D/g, '').length < 8, msg: !(f.msg || '').trim() };
-if (err.nome || err.tel || err.msg) { this.setState({ err }); return; }
-const lines = ['Olá, Dr. Rizelmo! Gostaria de solicitar um atendimento.', '', 'Nome: ' + f.nome.trim(), 'Telefone: ' + f.tel.trim(), 'Cidade/UF: ' + ((f.cidade || '').trim() || 'Não informado'), 'Área de interesse: ' + (f.area || this.AREAS[0]), 'Modalidade de atendimento: ' + this.state.tipo, '', 'Sobre o caso:', f.msg.trim(), '', 'Aguardo o retorno. Obrigado(a)!'];
-const url = 'https://wa.me/' + this.phone + '?text=' + encodeURIComponent(lines.join('\n'));
-let w = null;
-try { w = window.open(url, '_blank'); if (w) w.opener = null; } catch (e) { w = null; }
-this.f = this.blank();
-this.setState({ err: {}, sent: true, waUrl: url, popped: !!w, tipo: 'Presencial' });
-};
-this.reset = () => { this.f = this.blank(); this.setState({ sent: false, err: {}, tipo: 'Presencial' }); };
-}
-renderVals() {
-const st = this.state, e = st.err || {};
-return {
-okLabel: st.popped ? 'O WhatsApp não abriu? Toque aqui' : 'Abrir WhatsApp', sent: !!st.sent, editing: !st.sent, popped: !!st.popped, blocked: !!st.sent && !st.popped, waUrl: st.waUrl || '#', reset: this.reset,
-e: { nome: !!e.nome, tel: !!e.tel, msg: !!e.msg }, set: this.set,
-areas: this.AREAS.map((v) => ({ v })),
-pres: st.tipo === 'Presencial' ? 'true' : 'false', onl: st.tipo === 'On-line' ? 'true' : 'false',
-setPres: this.setPres, setOnl: this.setOnl, send: this.send
-};
-}
-}
+<div class="ck" id="ck" role="region" aria-label="Aviso de cookies" hidden><p>Este site usa apenas os cookies necessários e os do mapa do Google. Saiba mais na <a href="/politica-de-cookies">Política de Cookies</a>.</p><button type="button" id="ck-ok">Entendi</button></div>
+<div class="copy-toast" id="copy-toast" role="status" aria-live="polite"></div>
+<script>
+(function () {
+  var t = document.getElementById('copy-toast'), tm;
+  function toast(msg) { if (!t) return; t.textContent = msg; t.classList.add('on'); clearTimeout(tm); tm = setTimeout(function () { t.classList.remove('on'); }, 2200); }
+  function copy(txt) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(txt);
+    return new Promise(function (ok, no) { try { var a = document.createElement('textarea'); a.value = txt; a.setAttribute('readonly', ''); a.style.position = 'fixed'; a.style.opacity = '0'; document.body.appendChild(a); a.select(); document.execCommand('copy'); document.body.removeChild(a); ok(); } catch (e) { no(e); } });
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('[data-copy]');
+    if (!a) return;
+    e.preventDefault();
+    var v = a.getAttribute('data-copy');
+    copy(v).then(function () { toast('E-mail copiado: ' + v); }, function () { toast(v); });
+  });
+  var ck = document.getElementById('ck');
+  try { if (ck && !localStorage.getItem('ck-ok')) ck.hidden = false; } catch (e) { if (ck) ck.hidden = false; }
+  var ok = document.getElementById('ck-ok');
+  if (ok) ok.addEventListener('click', function () { try { localStorage.setItem('ck-ok', '1'); } catch (e) {} ck.hidden = true; });
+})();
+
+(function () {
+  var PHONE = '5511975688237', tipo = 'Presencial';
+  var f = document.querySelector('.form'), edit = f.querySelector('[data-edit]'), sent = f.querySelector('[data-sent]');
+  function $(id) { return document.getElementById(id); }
+  f.querySelectorAll('[data-tipo]').forEach(function (b) { b.addEventListener('click', function () { tipo = b.getAttribute('data-tipo'); f.querySelectorAll('[data-tipo]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); }); });
+  f.querySelector('[data-send]').addEventListener('click', function () {
+    var v = { nome: $('rf-nome').value.trim(), tel: $('rf-tel').value.trim(), cidade: $('rf-cid').value.trim(), area: $('rf-area').value, msg: $('rf-msg').value.trim() };
+    var err = { nome: !v.nome, tel: v.tel.replace(/\D/g, '').length < 8, msg: !v.msg }, bad = false;
+    Object.keys(err).forEach(function (k) { f.querySelector('[data-err="' + k + '"]').hidden = !err[k]; if (err[k] && !bad) { bad = true; $({ nome: 'rf-nome', tel: 'rf-tel', msg: 'rf-msg' }[k]).focus(); } });
+    if (bad) return;
+    var lines = ['Olá, Dr. Rizelmo! Gostaria de solicitar um atendimento.', '', 'Nome: ' + v.nome, 'Telefone: ' + v.tel, 'Cidade/UF: ' + (v.cidade || 'Não informado'), 'Área de interesse: ' + v.area, 'Modalidade de atendimento: ' + tipo, '', 'Sobre o caso:', v.msg, '', 'Aguardo o retorno. Obrigado(a)!'];
+    var url = 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent(lines.join('\n')), w = null;
+    try { w = window.open(url, '_blank'); if (w) w.opener = null; } catch (e) { w = null; }
+    sent.querySelector('[data-wa]').href = url;
+    sent.querySelector('[data-popped]').hidden = !w; sent.querySelector('[data-blocked]').hidden = !!w;
+    sent.querySelector('[data-ok-label]').textContent = w ? 'O WhatsApp não abriu? Toque aqui' : 'Abrir WhatsApp';
+    edit.hidden = true; sent.hidden = false;
+    ['rf-nome', 'rf-tel', 'rf-cid', 'rf-msg'].forEach(function (id) { $(id).value = ''; }); $('rf-area').selectedIndex = 0;
+  });
+  sent.querySelector('[data-wa]').setAttribute('target', '_blank');
+  f.querySelector('[data-reset]').addEventListener('click', function () { sent.hidden = true; edit.hidden = false; tipo = 'Presencial'; f.querySelectorAll('[data-tipo]').forEach(function (x, i) { x.setAttribute('aria-pressed', i === 0 ? 'true' : 'false'); }); f.querySelectorAll('[data-err]').forEach(function (e) { e.hidden = true; }); $('rf-nome').focus(); });
+})();
 </script>
 </body>
 </html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rizelmoadvocacia.com.br/sitemap.xml
